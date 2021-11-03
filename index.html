@@ -4,11 +4,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Page</title>
+  <title>Profile | Anna Hospedales</title>
 </head>
 <body>
-  <h1>Profile - Page</h1>
-  <img src="./images/IMG_2805.jpg" width=20% />
-  <h2>Welcome To My Page</h2>
+  <section id="main">
+    <h1> Welcome 👋🏽  My name is Annalise Hospedales </h1>
+    <h2> I'm a QA and gamer </h2>
+    <img src="./images/IMG_2805.jpg" width=20% />
+  </section>
+  <section id=#about>
+    <h2> About Me </h2>
+    <ul>
+      <li> I'm a transplant from NYC, currently in ATL </li>
+      <li> I play an unhealty amount of video games. My current addiction is Apex Legends </li>
+      <li> I have a very cute cat named Naan </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2> Contact </h2>
+    <h3> Your information</h3>
+    <form  style="border-style:solid">
+      <ul>
+        <li>
+          <label for="full-name">Full Name:</label>
+          <input id="full-name" type="text" placeholder="Full Name">
+        </li>
+        <li>
+          <label for="phone">Phone #: </label>
+          <input id="phone" type="text" placeholder="Phone Number">
+        </li>
+        <li>
+          <label for="email">Email: </label>
+          <input id="email" type="email" placeholder="Email">
+        </li>
+        <li>
+          <label for="message">Message: </label>
+          <textarea id="message" cols="30" rows="7" placeholder="What do you want to say?"></textarea> 
+        </li>
+      </ul>
+      <button type="submit"> Submit </button>
+    </form>
+  </section>
 </body>
 </html>
